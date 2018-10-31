@@ -1,3 +1,7 @@
+### 0.0.3 (2018.11.01)
+
+- Fix README and CHANGELOG
+
 ### 0.0.2 (2018.10.31)
 
 - Add username in words.
