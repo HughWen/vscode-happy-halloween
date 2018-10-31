@@ -28,9 +28,9 @@ This extension contributes the following settings:
 No issues.
 <!-- Calling out known issues can help limit users opening duplicate issues against your extension. -->
 
-## Release Notes
+<!-- ## Release Notes
 
-<!-- Users appreciate release notes as you update your extension. -->
+Users appreciate release notes as you update your extension.
 
 ### 0.0.1
 
@@ -38,7 +38,7 @@ Initial release of happy-halloween.
 
 ### 0.0.2
 
-Add username in words.
+Add username in words. -->
 
 <!-- ### 1.1.0
 

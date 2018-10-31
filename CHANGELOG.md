@@ -1,7 +1,7 @@
-# Change Log
-All notable changes to the "happy-halloween" extension will be documented in this file.
+### 0.0.2 (2018.10.31)
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Add username in words.
 
-## [Unreleased]
-- Initial release
+### 0.0.1 (2018.10.31)
+
+- Initial release.
