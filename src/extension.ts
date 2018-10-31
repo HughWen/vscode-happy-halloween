@@ -15,10 +15,22 @@ export function activate(context: vscode.ExtensionContext) {
     // Now provide the implementation of the command with  registerCommand
     // The commandId parameter must match the command field in package.json
     let disposable = vscode.commands.registerCommand('extension.sayHello', () => {
-        // The code you place here will be executed every time your command is executed
-
+        // find the username
+        let path = require("path");
+        let url = path.resolve('./');
+        let userName = '';
+        if (url.split('/').length >= 2) {
+            userName = url.split('/')[1];
+        }
+        else {
+            userName = url.split('\\')[2];
+        }
+        // some hardcode for friends
+        if (userName === '123') {
+            userName = 'Zhu Zhizhi';
+        }
         // Display a message box to the user
-        vscode.window.showInformationMessage('Happy Halloween!');
+        vscode.window.showInformationMessage('Happy Halloween, ' + userName + '!');
     });
 
     context.subscriptions.push(disposable);
