@@ -1,6 +1,6 @@
 # happy-halloween README
 
-This is the README for your extension "happy-halloween". After writing up a brief description, we recommend including the following sections.
+This is the README for "happy-halloween".
 
 ## Features
 
