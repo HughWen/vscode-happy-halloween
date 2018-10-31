@@ -2,7 +2,7 @@
     "name": "happy-halloween",
     "displayName": "happy-halloween",
     "description": "Just say \"happy Halloween\"",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "hughwen",
     "engines": {
         "vscode": "^1.28.0"
