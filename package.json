@@ -2,6 +2,7 @@
     "name": "happy-halloween",
     "displayName": "happy-halloween",
     "description": "Just say \"happy Halloween\"",
+    "icon": "images/logo.PNG",
     "version": "0.0.2",
     "publisher": "hughwen",
     "engines": {
