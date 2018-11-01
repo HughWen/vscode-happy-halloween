@@ -16,15 +16,8 @@ export function activate(context: vscode.ExtensionContext) {
     // The commandId parameter must match the command field in package.json
     let disposable = vscode.commands.registerCommand('extension.sayHello', () => {
         // find the username
-        let path = require("path");
-        let url = path.resolve('./');
-        let userName = '';
-        if (url.split('/').length >= 2) {
-            userName = url.split('/')[1];
-        }
-        else {
-            userName = url.split('\\')[2];
-        }
+        let os = require('os');
+        let userName = os.userInfo().username;
         // some hardcode for friends
         if (userName === '123') {
             userName = 'Zhu Zhizhi';
