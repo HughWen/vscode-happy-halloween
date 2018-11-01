@@ -3,7 +3,7 @@
     "displayName": "happy-halloween",
     "description": "Just say \"happy Halloween\"",
     "icon": "images/logo.PNG",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "hughwen",
     "engines": {
         "vscode": "^1.28.0"

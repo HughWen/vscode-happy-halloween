@@ -18,7 +18,7 @@ export function activate(context: vscode.ExtensionContext) {
         // find the username
         let os = require('os');
         let userName = os.userInfo().username;
-        // some hardcode for friends
+        // hardcode for Zhu Zhizhi
         if (userName === '123') {
             userName = 'Zhu Zhizhi';
         }
